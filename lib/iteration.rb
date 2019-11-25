@@ -9,8 +9,8 @@ def join_ingredients(src)
 new_array = []
 row_index = 0
 while row_index < src.count do
-  var1 = src[row_index][0]
-  var2 = src[row_index][1]
+  var1 = "chuck"
+  var2 = "poop"
   new_array << "I love ${var1} and ${var2} on my pizza"
   row_index += 1
 end
