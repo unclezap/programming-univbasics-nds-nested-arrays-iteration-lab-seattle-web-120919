@@ -16,28 +16,6 @@ return new_array
 end
 
 def find_greater_pair(src)
-  # src will be an array of [ [number1, number2], ... [numberN, numberM] ]
-  # Produce a new Array that contains the larger number of each of the pairs
-  # that are in the inner Arrays
-puts "here0"
-new_array = []
-row_index = 0
-  while row_index < src.count do
-    puts "here1"
-    if src[row_index][0] > src[row_index][1]
-      puts "here2"
-      new_array << src[row_index][0]
-    else
-      puts "here3"
-      new_array << src[row_index][1]
-    end
-    puts "here4"
-    row_index +=1
-    puts "here5"
-  end
-  puts "here6"
-return new_array
-end
 
 end
 
