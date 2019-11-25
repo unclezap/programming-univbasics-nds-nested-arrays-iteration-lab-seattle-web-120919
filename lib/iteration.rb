@@ -52,6 +52,6 @@ while index_count < src.count
   index_count +=1
 end
 
-puts new_array
+return new_array
 
 end
