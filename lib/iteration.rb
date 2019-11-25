@@ -33,7 +33,7 @@ while pair_index < src.count
 
 pair_index +=1
 end
-
+return new_array
 end
 
 def total_even_pairs(src)
