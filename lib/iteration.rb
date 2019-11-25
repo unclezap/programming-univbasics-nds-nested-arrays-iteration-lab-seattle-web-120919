@@ -49,7 +49,7 @@ while index_count < src.count
     new_array << src[index_count][0] + src[index_count][1]  
   end
   
-  count +=1
+  index_count +=1
 end
 
 puts new_array
