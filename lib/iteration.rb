@@ -16,6 +16,8 @@ return new_array
 end
 
 def find_greater_pair(src)
+pair_index = 0
+new_array = []
 
 end
 
