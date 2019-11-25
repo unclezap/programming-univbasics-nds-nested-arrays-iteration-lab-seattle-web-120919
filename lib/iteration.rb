@@ -46,7 +46,7 @@ index_count = 0
 
 while index_count < src.count
  
-  if (src[index_count][0] % 2 === 0) && (src[index_count][1]) % 2 === 0)
+  if (src[index_count][0] % 2 === 0) && (src[index_count][1] % 2 === 0)
     sum += src[index_count][0] + src[index_count][1]  
   end
   
