@@ -19,6 +19,21 @@ def find_greater_pair(src)
 pair_index = 0
 new_array = []
 
+while pair_index < src.count
+
+  if src[pair_index][0] > src[pair_index][1]
+    puts "here0"
+    new_array << src[pair_index][0]
+  end
+  
+  if src[pair_index][0] < src[pair_index][1]
+    puts "here1"
+    new_array << src[pair_index][0]
+  end
+
+pair_index +=1
+end
+
 end
 
 def total_even_pairs(src)
