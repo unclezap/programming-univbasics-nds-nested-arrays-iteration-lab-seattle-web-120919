@@ -53,6 +53,6 @@ while index_count < src.count
   index_count +=1
 end
 
-return new_array
+sum
 
 end
