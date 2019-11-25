@@ -11,7 +11,7 @@ row_index = 0
 while row_index < src.count do
   var1 = src[row_index][0]
   var2 = src[row_index][1]
-  new_array.push("I love " + var1 + " and " + var2 + "" on my pizza")
+  new_array.push("I love " + var1 + " and " + var2 + " on my pizza")
   row_index += 1
 end
 puts new_array
