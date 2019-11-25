@@ -45,6 +45,7 @@ new_array = []
 index_count = 0
 
 while index_count < src.count
+ puts src[index_count][0] + src[index_count][1] % 2
   if src[index_count][0] + src[index_count][1] % 2 === 0
     new_array << src[index_count][0] + src[index_count][1]  
   end
