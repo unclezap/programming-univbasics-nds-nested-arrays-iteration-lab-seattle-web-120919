@@ -22,15 +22,14 @@ new_array = []
 while pair_index < src.count
 
   if src[pair_index][0] > src[pair_index][1]
-    puts "here0"
     new_array << src[pair_index][0]
   else
-    puts "here1"
     new_array << src[pair_index][1]
   end
 
 pair_index +=1
 end
+
 return new_array
 end
 
@@ -42,4 +41,6 @@ def total_even_pairs(src)
   # As a reminder any number % 2 will return 0 or 1. If the result is 0, then
   # the number was even. Review the operator documentation if you've forgotten
   # this!
+
+
 end
